@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>Connect Four</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+<link rel="stylesheet" type="text/css" href="css/qunit-1.15.0.css" />
+<link rel="shortcut icon" type="image/png" id="favicon" href="img/red.ico" />
+</head>
+
+<body>
+
+<div id="container" class="col-centered">
+   <div id="currentPlayer">Player 1 is up</div>
+   
+   <div id="board" class="col-centered">
+      <span id="pieces">
+         <div id="pMaster" class="piece red master"></div>
+      </span>
+      
+      <div id="hoverRegion" class="selector"></div>
+      
+      <div id="player1">
+      1
+         <div id="player1moves">
+         0 
+         </div>
+         <div class="moveslabel">
+         MOVE
+         </div>
+      </div>
+      
+      <div id="player2">
+      2
+         <div id="player2moves">
+         0 
+         </div>
+         <div class="moveslabel">
+         MOVE
+         </div>
+      </div>
+      
+      <div class="layer"></div>
+      <div class="layer n"></div>
+      <div class="layer n"></div>
+      <div class="layer n"></div>
+      <div class="layer n"></div>
+      <div class="layer n"></div>
+   </div>
+  
+   <div id="rematch">
+      <button disabled>Rematch!</button>
+      <p>Trophy by Matthew R. Miller from Noun Project 
+      <br />Flag by Roman J. Sokolov from Noun Project</p>
+   </div>
+</div>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/qunit-1.15.0.js"></script>
+<script type="text/javascript" src="js/easings.js"></script>
+<script type="text/javascript" src="js/engine.js"></script>
+<script type="text/javascript" src="js/tester.js"></script>
+
+</body>
+
+</html>
